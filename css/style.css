@@ -1,0 +1,14 @@
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.navbar-header {
+	width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.scale {
+	margin-top: 1.5em;
+}
+
