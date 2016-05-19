@@ -8,7 +8,6 @@ h1 {
 	font-size: 30vw;
 }
 
-.header {
-   height: 32vw;
-   margin-bottom: 0.5em;
+.title-sentence-gap {
+    margin-bottom: 8vw;
 }
