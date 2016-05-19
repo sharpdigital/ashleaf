@@ -8,3 +8,8 @@ h1 {
 	font-size: 30vw;
 }
 
+.border {
+	border-bottom: 1px solid black;
+	margin-right: 0;
+	margin-left: 0;
+}
