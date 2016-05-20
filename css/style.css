@@ -40,3 +40,11 @@ img {
     margin: 8vw 0;
     padding-bottom: 8vw;
 }
+
+.input1 {
+    margin: 3px;
+}
+
+.input2 {
+	margin: 3px 3px 3px 5px;
+}
