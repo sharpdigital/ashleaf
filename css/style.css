@@ -1,14 +1,42 @@
-.scale {
-	margin-top: 1.5em;
-}
-
 h1 {
-	text-align: center;
-	font-weight: 100;
-	font-size: 30vw;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30vw;
 }
 
-.header {
-   height: 32vw;
-   margin-bottom: 0.5em;
+.title-sentence-gap {
+    margin-bottom: 8vw;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+@media all and (max-width: 992px) {
+    .border-bottom {
+        border: none;
+    }
+
+    .border-right {
+        border: none;
+    }
+}
+
+.brief-description-gap {
+    border-bottom: 1px solid black;
+    margin: 8vw 0;
+    padding-bottom: 8vw;
 }
