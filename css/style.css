@@ -1,5 +1,5 @@
 body {
-    font-size: 2vw;
+    font-size: 3em;
 }
 
 .row {
@@ -46,11 +46,15 @@ img {
 }
 
 .copyright {
-    font-size: 1vw;
+    font-size: 0.6em;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
 @media all and (max-width: 992px) {
+    body {
+        font-size: 1.8em;
+    }
+
     .col-md-6 img {
         border-top: 1px solid #bbb;
     }
