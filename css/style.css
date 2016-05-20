@@ -63,3 +63,13 @@ img {
 .copyright {
     font-size: 1vw;
 }
+
+.slideshow p {
+    width: 100%;
+    display: none;
+}
+
+.slideshow p:first {
+    display: block;
+}
+
