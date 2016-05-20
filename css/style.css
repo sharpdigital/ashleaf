@@ -21,12 +21,12 @@ img {
     height: auto;
 }
 
-.border-right {
-    border-right: 1px solid black;
+.thin-right-border {
+    border-right: 1px solid #bbb;
 }
 
-.border-bottom {
-    border-bottom: 1px solid black;
+.thin-bottom-border {
+    border-bottom: 1px solid #bbb;
 }
 
 .nopadding {
@@ -43,12 +43,11 @@ img {
     }
 
     .col-md-6 img {
-        margin-top: 3vw;
+        border-top: 1px solid #bbb;
     }
 }
 
 .brief-description-gap {
-    border-bottom: 1px solid black;
     padding-bottom: 8vw;
 }
 
