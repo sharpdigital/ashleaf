@@ -33,20 +33,6 @@ img {
     padding: 0;
 }
 
-@media all and (max-width: 992px) {
-    .border-bottom {
-        border: none;
-    }
-
-    .border-right {
-        border: none;
-    }
-
-    .col-md-6 img {
-        border-top: 1px solid #bbb;
-    }
-}
-
 .brief-description-gap {
     padding-bottom: 8vw;
 }
@@ -61,4 +47,15 @@ img {
 
 .copyright {
     font-size: 1vw;
+}
+
+/* Moblie portrait, landscape and Tablet portrait */
+@media all and (max-width: 992px) {
+    .col-md-6 img {
+        border-top: 1px solid #bbb;
+    }
+
+    .contacts :nth-child(odd) {
+        margin-bottom: 3vw;
+    }
 }
