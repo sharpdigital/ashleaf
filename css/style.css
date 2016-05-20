@@ -33,6 +33,10 @@ img {
     .border-right {
         border: none;
     }
+
+    .col-md-6 img {
+      margin-bottom: 3vw;
+    }
 }
 
 .brief-description-gap {
