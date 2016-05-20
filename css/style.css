@@ -4,6 +4,10 @@ h1 {
     font-size: 30vw;
 }
 
+.title-sentence-gap {
+    margin-bottom: 8vw;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -25,7 +29,7 @@ img {
     .border-bottom {
         border: none;
     }
-    
+
     .border-right {
         border: none;
     }
