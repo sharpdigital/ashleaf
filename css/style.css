@@ -36,12 +36,24 @@ img {
     .border-right {
         border: none;
     }
+
+    .col-md-6 img {
+      margin-bottom: 3vw;
+    }
 }
 
 .brief-description-gap {
     border-bottom: 1px solid black;
     margin: 8vw 0;
     padding-bottom: 8vw;
+}
+
+.input1 {
+    margin: 3px;
+}
+
+.input2 {
+	margin: 3px 3px 3px 5px;
 }
 
 .copyright {
