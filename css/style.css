@@ -1,14 +1,19 @@
 body {
     font-size: 2vw;
 }
+
+.row {
+    margin-bottom: 8vw;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
 h1 {
     text-align: center;
     font-weight: 100;
     font-size: 30vw;
-}
-
-.title-sentence-gap {
-    margin-bottom: 8vw;
 }
 
 img {
@@ -38,13 +43,12 @@ img {
     }
 
     .col-md-6 img {
-      margin-bottom: 3vw;
+        margin-top: 3vw;
     }
 }
 
 .brief-description-gap {
     border-bottom: 1px solid black;
-    margin: 8vw 0;
     padding-bottom: 8vw;
 }
 
@@ -53,7 +57,7 @@ img {
 }
 
 .input2 {
-	margin: 3px 3px 3px 5px;
+    margin: 3px 3px 3px 5px;
 }
 
 .copyright {
