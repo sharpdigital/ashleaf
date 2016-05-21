@@ -1,5 +1,5 @@
 body {
-    font-size: 2vw;
+    font-size: 3em;
 }
 
 .row {
@@ -21,34 +21,19 @@ img {
     height: auto;
 }
 
-.border-right {
-    border-right: 1px solid black;
+.thin-right-border {
+    border-right: 1px solid #bbb;
 }
 
-.border-bottom {
-    border-bottom: 1px solid black;
+.thin-bottom-border {
+    border-bottom: 1px solid #bbb;
 }
 
 .nopadding {
     padding: 0;
 }
 
-@media all and (max-width: 992px) {
-    .border-bottom {
-        border: none;
-    }
-
-    .border-right {
-        border: none;
-    }
-
-    .col-md-6 img {
-        margin-top: 3vw;
-    }
-}
-
 .brief-description-gap {
-    border-bottom: 1px solid black;
     padding-bottom: 8vw;
 }
 
@@ -61,7 +46,7 @@ img {
 }
 
 .copyright {
-    font-size: 1vw;
+    font-size: 0.6em;
 }
 
 .slideshow p {
@@ -73,3 +58,17 @@ img {
     display: block;
 }
 
+/* Moblie portrait, landscape and Tablet portrait */
+@media all and (max-width: 992px) {
+    body {
+        font-size: 1.8em;
+    }
+
+    .col-md-6 img {
+        border-top: 1px solid #bbb;
+    }
+
+    .contacts :nth-child(odd) {
+        margin-bottom: 3vw;
+    }
+}
