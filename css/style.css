@@ -22,11 +22,11 @@ img {
 }
 
 .thin-right-border {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #999;
 }
 
 .thin-bottom-border {
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #999;
 }
 
 .nopadding {
@@ -65,7 +65,7 @@ img {
     }
 
     .col-md-6 img {
-        border-top: 1px solid #bbb;
+        border-top: 1px solid #999;
     }
 
     .contacts :nth-child(odd) {
