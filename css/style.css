@@ -1,5 +1,5 @@
 body {
-    font-size: 3em;
+    font-size: 30px;
 }
 
 .row {
@@ -37,6 +37,10 @@ img {
     padding-bottom: 8vw;
 }
 
+.form-control {
+    font-size: 18px
+}
+
 .input1 {
     margin: 3px;
 }
@@ -61,7 +65,7 @@ img {
 /* Moblie portrait, landscape and Tablet portrait */
 @media all and (max-width: 992px) {
     body {
-        font-size: 1.8em;
+        font-size: 18px;
     }
 
     .col-md-6 img {
