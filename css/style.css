@@ -1,5 +1,5 @@
 body {
-    font-size: 3em;
+    font-size: 30px;
 }
 
 .row {
@@ -8,6 +8,15 @@ body {
 
 .no-bottom-margin {
     margin-bottom: 0;
+}
+
+.slideshow p {
+    width: 100%;
+    display: none;
+}
+
+.slideshow p:first {
+    display: block;
 }
 
 h1 {
@@ -21,12 +30,16 @@ img {
     height: auto;
 }
 
+.hover_caption {
+    background: url(bg.png);
+}
+
 .thin-right-border {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #888;
 }
 
 .thin-bottom-border {
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #888;
 }
 
 .nopadding {
@@ -37,6 +50,10 @@ img {
     padding-bottom: 8vw;
 }
 
+.form-control {
+    font-size: 18px
+}
+
 .input1 {
     margin: 3px;
 }
@@ -45,30 +62,39 @@ img {
     margin: 3px 3px 3px 5px;
 }
 
+.contacts {
+    background-color: #888;
+    color: white;
+    padding: 4vw 0;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: underline;
+}
+
 .copyright {
     font-size: 0.6em;
-}
-
-.slideshow p {
-    width: 100%;
-    display: none;
-}
-
-.slideshow p:first {
-    display: block;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
 @media all and (max-width: 992px) {
     body {
-        font-size: 1.8em;
+        font-size: 18px;
     }
 
     .col-md-6 img {
-        border-top: 1px solid #bbb;
+        border-top: 1px solid #888;
     }
 
-    .contacts :nth-child(odd) {
-        margin-bottom: 3vw;
+    .contacts :nth-last-child(-n+2) {
+        margin-top: 8vw;
     }
 }
+
+@media all and (min-width: 993px) {
+    .contacts :nth-child(3) {
+        margin-top: 42px;
+    }
+}
+
