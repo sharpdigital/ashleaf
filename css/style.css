@@ -72,7 +72,7 @@ img {
         border-top: 1px solid #999;
     }
 
-    .contacts :nth-child(odd) {
-        margin-bottom: 3vw;
+    .contacts :nth-last-child(-n+2) {
+        margin-top: 3vw;
     }
 }
