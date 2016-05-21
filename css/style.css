@@ -87,3 +87,10 @@ img {
         margin-top: 8vw;
     }
 }
+
+@media all and (min-width: 993px) {
+    .contacts :nth-child(3) {
+        margin-top: 42px;
+    }
+}
+
