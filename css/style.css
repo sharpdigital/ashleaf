@@ -10,6 +10,15 @@ body {
     margin-bottom: 0;
 }
 
+.slideshow p {
+    width: 100%;
+    display: none;
+}
+
+.slideshow p:first {
+    display: block;
+}
+
 h1 {
     text-align: center;
     font-weight: 100;
@@ -22,11 +31,11 @@ img {
 }
 
 .thin-right-border {
-    border-right: 1px solid #999;
+    border-right: 1px solid #888;
 }
 
 .thin-bottom-border {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #888;
 }
 
 .nopadding {
@@ -49,17 +58,19 @@ img {
     margin: 3px 3px 3px 5px;
 }
 
+.contacts {
+    background-color: #888;
+    color: white;
+    padding: 4vw 0;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: underline;
+}
+
 .copyright {
     font-size: 0.6em;
-}
-
-.slideshow p {
-    width: 100%;
-    display: none;
-}
-
-.slideshow p:first {
-    display: block;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
@@ -69,10 +80,10 @@ img {
     }
 
     .col-md-6 img {
-        border-top: 1px solid #999;
+        border-top: 1px solid #888;
     }
 
     .contacts :nth-last-child(-n+2) {
-        margin-top: 3vw;
+        margin-top: 8vw;
     }
 }
