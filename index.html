@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
         <title>ashleaf</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -16,7 +16,7 @@
             </div>
 
             <div class="row">
-                <div class="slideshow col-xs-12">
+                <div class="slideshow col-xs-12 cycle-slideshow" data-cycle-slides="> p" data-cycle-timeout="15000">
                     <p class="text-center">A leaf - fine art straight from nature: captured in bronze, from transience to permenance.</p>
                     <p class="text-center">Leaves in bronze: catching the moment.</p>
                     <p class="text-center">Taking a leaf out of nature’s book: every detail captured in bronze.</p>
@@ -25,13 +25,13 @@
 
             <div class="row">
                 <div class="col-xs-12 col-lg-12 nopadding thin-bottom-border">
-                    <img class="img-responsive" src="./img/sycamore-bronze-leaves.jpg" alt="Caterpillar eaten sycamore leaves in patinated bronze  - sculpture on high pillars">
+                    <img class="img-responsive" src="./img/sycamore-bronze-leaves.jpg" alt="Caterpillar eaten sycamore leaves in patinated bronze  - sculpture on high pillars"  title="Caterpillar eaten sycamore leaves in patinated bronze  - sculpture on high pillars">
                 </div>
                 <div class="col-xs-12 col-md-6 nopadding thin-right-border">
-                    <img class="img-responsive" src="./img/dried-oak-bronze-leaves.jpg" alt="Composing with dried oak leaves for large scale bronze leaf installation">
+                    <img class="img-responsive" src="./img/dried-oak-bronze-leaves.jpg" alt="Composing with dried oak leaves for large scale bronze leaf installation" title="Composing with dried oak leaves for large scale bronze leaf installation">
                 </div>
                 <div class="col-xs-12 col-md-6 nopadding">
-                    <img class="img-responsive" src="./img/chesnut-bronze-leaves.jpg" alt="Sweet chestnut bronze leaves in the workshop - prepared for a leaf forest screen">
+                    <img class="img-responsive" src="./img/chesnut-bronze-leaves.jpg" alt="Sweet chestnut bronze leaves in the workshop - prepared for a leaf forest screen" title="Sweet chestnut bronze leaves in the workshop - prepared for a leaf forest screen">
                 </div>
             </div>
 
@@ -40,7 +40,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
+                <div class="col-xs-12 col-md-6 col-md-offset-3">
                     <p>Ashleaf news and events</p>
                     <form action="http://london.us13.list-manage.com/subscribe/post?u=6f3761858d967d5160671c85b&amp;id=aa9b3146d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div class="form-group">
@@ -60,11 +60,6 @@
             </div>
 
             <div class="row text-center contacts">
-                <div class="col-xs-12 col-md-4">
-                    15D Parsons Green Depot,<br>
-                    33-39 Parsons Green Lane,  London<br>
-                    SW6 4HH<br>
-                </div>
                 <div class="col-md-4 hidden-xs hidden-sm">
                     +447973684283<br>
                     or<br>
@@ -78,6 +73,11 @@
                 <div class="col-xs-12 col-md-4">
                     <a href="mailto:info@ashleaf.london">info@ashleaf.london</a>
                 </div>
+                <div class="col-xs-12 col-md-4">
+                    <a href="http://maps.google.com/maps?z=19&amp;t=m&amp;q=loc:51.4765758,-0.2001642" target="_blank">15D Parsons Green Depot,<br>
+                    33-39 Parsons Green Lane,  London<br>
+                    SW6 4HH</a>
+                </div>
             </div>
 
             <div class="row no-bottom-margin">
@@ -88,8 +88,15 @@
         </div>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src=" http://malsup.github.io/min/jquery.cycle.all.min.js"></script>
-        <script type="text/javascript" src="js/cycle.js"></script>
+        <script type="text/javascript" src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.hover_caption.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('img').hover_caption({
+                    caption_font_size: '30px'
+                });
+            });
+        </script>
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
