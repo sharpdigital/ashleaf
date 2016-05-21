@@ -30,6 +30,10 @@ img {
     height: auto;
 }
 
+.hover_caption {
+    background: url(http://coryschires.com/wp-content/themes/cs-simple/images/hover_msg/bg.png);
+}
+
 .thin-right-border {
     border-right: 1px solid #888;
 }
