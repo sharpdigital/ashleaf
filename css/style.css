@@ -30,10 +30,6 @@ img {
     height: auto;
 }
 
-.hover_caption {
-    background: url(bg.png);
-}
-
 .thin-right-border {
     border-right: 1px solid #888;
 }
