@@ -91,6 +91,10 @@ img {
         border-top: 1px solid #888;
     }
 
+    .contacts {
+        text-align: justify;
+    }    
+
     .contacts :nth-last-child(-n+2) {
         margin-top: 8vw;
     }
