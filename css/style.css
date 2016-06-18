@@ -97,7 +97,7 @@ img {
     }
 
     .col-md-6 img {
-        border-top: 1px solid #888;
+        padding-top: 8vw;
     }
 
     .contacts {
