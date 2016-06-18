@@ -46,6 +46,10 @@ img {
     padding: 0;
 }
 
+.justify p {
+    text-align: justify;
+}
+
 .brief-description-gap {
     padding-bottom: 8vw;
 }
