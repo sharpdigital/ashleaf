@@ -1,0 +1,117 @@
+body {
+    font-size: 30px;
+}
+
+.row {
+    margin-bottom: 8vw;
+}
+
+.logo-row-margin {
+    margin-bottom: 1.6vw;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.slideshow p {
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+.cycle-slide {
+    padding: 0 15px;
+}
+
+.slideshow p:first {
+    display: block;
+}
+
+h1 {
+    font-size: 30vw;
+    font-weight: 100;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.thin-right-border {
+    border-right: 1px solid #888;
+}
+
+.thin-bottom-border {
+    border-bottom: 1px solid #888;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.justify p {
+    text-align: justify;
+}
+
+.brief-description-gap {
+    padding-bottom: 8vw;
+}
+
+.form-control {
+    font-size: 18px
+}
+
+.input1 {
+    margin: 3px;
+}
+
+.input2 {
+    margin: 3px 3px 3px 5px;
+}
+
+.contacts {
+    background-color: #888;
+    color: white;
+    margin-bottom: 1vw;
+    padding: 4vw 0;
+}
+
+.contacts a {
+    color: white;
+}
+
+.copyright {
+    font-size: 0.6em;
+}
+
+/* Moblie portrait, landscape and Tablet portrait */
+@media all and (max-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+
+    .slideshow p {
+        text-align: justify;
+    }
+
+    .col-md-6 img {
+        padding-top: 8vw;
+    }
+
+    .contacts {
+        text-align: justify;
+    }
+
+    .contacts :nth-last-child(-n+2) {
+        margin-top: 8vw;
+    }
+}
+
+@media all and (min-width: 993px) {
+    .contacts :nth-child(3) {
+        margin-top: 42px;
+    }
+}
+
