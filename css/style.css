@@ -78,6 +78,14 @@ img {
     font-size: 0.6em;
 }
 
+.contacts {
+    text-align: justify;
+}
+
+.contacts :nth-last-child(-n+2) {
+    margin-top: 8vw;
+}
+
 /* Moblie portrait, landscape and Tablet portrait */
 @media all and (max-width: 992px) {
     body {
@@ -91,19 +99,4 @@ img {
     .col-md-6 img {
         padding-top: 8vw;
     }
-
-    .contacts {
-        text-align: justify;
-    }
-
-    .contacts :nth-last-child(-n+2) {
-        margin-top: 8vw;
-    }
 }
-
-@media all and (min-width: 993px) {
-    .contacts :nth-child(3) {
-        margin-top: 42px;
-    }
-}
-
