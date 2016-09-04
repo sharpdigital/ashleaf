@@ -39,14 +39,6 @@ img {
     height: auto;
 }
 
-.thin-right-border {
-    border-right: 1px solid #888;
-}
-
-.thin-bottom-border {
-    border-bottom: 1px solid #888;
-}
-
 .nopadding {
     padding: 0;
 }
