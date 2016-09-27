@@ -87,13 +87,23 @@ img {
     text-align: justify;
 }
 
-.contacts > :nth-last-child(-n+2) {
+.contacts > * {
     padding-top: 2vw;
+    padding-bottom: 3vw;
     border-top: 1px solid #bbb;
 }
 
-.contacts > :nth-last-child(n+2) {
-    padding-bottom: 3vw;
+.contacts > :first-child {
+    border-top: 0;
+}
+
+.social {
+    padding-top: 4vw;
+}
+
+.social,
+.social a {
+    color: black;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
