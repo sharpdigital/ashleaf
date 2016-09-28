@@ -11,6 +11,12 @@ body {
     margin-bottom: 8vw;
 }
 
+h1 {
+    font-size: 30vw;
+    font-weight: 100;
+    text-align: center;
+}
+
 .logo-row-margin {
     margin-bottom: 1.6vw;
 }
@@ -33,10 +39,9 @@ body {
     display: block;
 }
 
-h1 {
-    font-size: 30vw;
-    font-weight: 100;
-    text-align: center;
+.social,
+.social a {
+    color: black;
 }
 
 img {
@@ -95,15 +100,6 @@ img {
 
 .contacts > :first-child {
     border-top: 0;
-}
-
-.social {
-    padding-top: 4vw;
-}
-
-.social,
-.social a {
-    color: black;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
