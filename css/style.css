@@ -86,12 +86,14 @@ img {
 }
 
 .contacts a,
-.exhibition a {
-    color: white;
-}
-
+.exhibition a,
 .contacts a:hover,
-.exhibition a:hover {
+.exhibition a:hover,
+.contacts a:visited,
+.exhibition a:visited,
+.contacts a:active,
+.exhibition a:active {
+    color: white;
     text-decoration: none;
 }
 
