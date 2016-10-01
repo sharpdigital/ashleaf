@@ -11,6 +11,12 @@ body {
     margin-bottom: 8vw;
 }
 
+h1 {
+    font-size: 30vw;
+    font-weight: 100;
+    text-align: center;
+}
+
 .logo-row-margin {
     margin-bottom: 1.6vw;
 }
@@ -23,6 +29,7 @@ body {
     display: none;
     text-align: center;
     width: 100%;
+    margin: 0;
 }
 
 .cycle-slide {
@@ -33,10 +40,9 @@ body {
     display: block;
 }
 
-h1 {
-    font-size: 30vw;
-    font-weight: 100;
-    text-align: center;
+.social,
+.social a {
+    color: black;
 }
 
 img {
@@ -68,32 +74,50 @@ img {
     margin: 3px 3px 3px 5px;
 }
 
-.contacts {
+.contacts,
+.exhibition {
     background-color: #888;
     color: white;
     margin-bottom: 1vw;
-    padding: 3vw 0 4vw 0;
 }
 
-.contacts a {
+.exhibition span {
+    white-space: nowrap;
+}
+
+.contacts a,
+.exhibition a {
     color: white;
-}
-
-.copyright {
-    font-size: 0.6em;
 }
 
 .contacts {
     text-align: justify;
 }
 
-.contacts > :nth-last-child(-n+2) {
+.contacts > *,
+.exhibition > * {
     padding-top: 2vw;
+    padding-bottom: 3vw;
     border-top: 1px solid #bbb;
 }
 
-.contacts > :nth-last-child(n+2) {
-    padding-bottom: 3vw;
+.contacts > :first-child,
+.exhibition > :first-child {
+    border-top: 0;
+}
+
+.copyright {
+    font-size: 0.6em;
+}
+
+.atcb-link {
+  padding: inherit !important;
+  background: inherit !important;
+  box-shadow: inherit !important;
+  color: inherit !important;
+  text-decoration: underline !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
