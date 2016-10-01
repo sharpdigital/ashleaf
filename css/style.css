@@ -81,13 +81,13 @@ img {
     margin-bottom: 1vw;
 }
 
+.exhibition span {
+    white-space: nowrap;
+}
+
 .contacts a,
 .exhibition a {
     color: white;
-}
-
-.exhibition a {
-    text-decoration: underline;
 }
 
 .contacts {
