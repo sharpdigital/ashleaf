@@ -9,10 +9,28 @@
         <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <div class="container-fluid">
+            <div class="row text-center exhibition">
+                <div class="col-xs-12 text-center">
+                    A special selection of our 'Holy Leaves' is presented | <a href="https://www.pad-fairs.com/london/" target="_blank">PAD London</a> | <a href="http://ammann-gallery.com/" target="_blank">AMMANN GALLERY</a> - Stand Number B26 | <span class="addtocalendar atc-style-blue">
+                        <a class="atcb-link">3-9 OCTOBER 2016</a>
+                        <var class="atc_event">
+                            <var class="atc_date_start">2016-10-03 00:00:00</var>
+                            <var class="atc_date_end">2016-10-09 24:00:00</var>
+                            <var class="atc_timezone">Europe/London</var>
+                            <var class="atc_title">Ashleaf show | PAD London at Berkely Square W1</var>
+                            <var class="atc_description">A special selection of our 'Holy Leaves' is presented</var>
+                            <var class="atc_location">Berkeley Square, London, W1J 6BE, United Kingdom</var>
+                            <var class="atc_organizer">ashleaf</var>
+                            <var class="atc_organizer_email">info@ashleaf.london</var>
+                        </var>
+                    </span> | <a href="https://www.pad-fairs.com/london/visitors/general-information/" target="_blank">BERKELEY SQUARE W1</a>
+                </div>
+            </div>
             <div class="row logo-row-margin">
                 <h1 class="col-sx-12">ashleaf</h1>
             </div>
@@ -121,6 +139,14 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script type="text/javascript" src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
         <script src="http://malsup.github.io/min/jquery.cycle2.center.min.js"></script>
+        <script type="text/javascript">(function () {
+            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                var h = d[g]('body')[0];h.appendChild(s); }})();
+        </script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
