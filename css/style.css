@@ -90,6 +90,11 @@ img {
     color: white;
 }
 
+.contacts a:hover,
+.exhibition a:hover {
+    text-decoration: none;
+}
+
 .contacts {
     text-align: justify;
 }
