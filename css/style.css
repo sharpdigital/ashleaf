@@ -29,6 +29,7 @@ h1 {
     display: none;
     text-align: center;
     width: 100%;
+    margin: 0;
 }
 
 .cycle-slide {
