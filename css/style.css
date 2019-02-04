@@ -7,22 +7,68 @@ body {
     font-weight: 200;
 }
 
-.row {
-    margin-bottom: 8vw;
-}
-
 h1 {
-    font-size: 30vw;
-    font-weight: 100;
     text-align: center;
+    margin: 0;
 }
 
-.logo-row-margin {
-    margin-bottom: 1.6vw;
+h1 img {
+    width: 83.3%;
+    margin-top: 2vw;
 }
 
-.no-bottom-margin {
+h2,
+.motto {
+    font-size: 1.2em;
+}
+
+h2, h2 a, h2 a:hover, h2 a:active, h2 a:visited {
+    margin: 0;
+    color: #815241;
+    font-weight: 200;
+}
+
+p {
     margin-bottom: 0;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #bbb;
+    border-style: solid none;
+    border-width: 1px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 83.3%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    padding: 4vw 0;
+    color: #4d4d4d;
+    line-height: 1.2em;
+}
+
+.light-bg {
+    background-color: #b7c6d0;
+    color: #233b46;
+}
+
+.dark-bg {
+    background-color: #233b46;
+    color: white;
+}
+
+.light-bg hr {
+    border-color: #233b46;
 }
 
 .slideshow p {
@@ -40,18 +86,49 @@ h1 {
     display: block;
 }
 
-.social,
-.social a {
-    color: black;
+.border-bottom {
+    border-bottom: 1px solid #bbb;
 }
 
-img {
+.quotes .citation {
+    color: #ccb090;
+    font-weight: normal;
+}
+
+.social {
+    float: left;
     width: 100%;
-    height: auto;
+    position: absolute;
+    z-index: 1000;
+    margin-top: -20px;
 }
 
-.nopadding {
-    padding: 0;
+.round-icon {
+    background-color: #385f73;
+    border-radius: 50%;
+    color: white;
+
+    font-size: 28px;
+    height: 40px; /* fontsize + 2 * padding */
+    padding: 6px;
+    width: 40px; /* fontsize + 2 * padding */
+}
+
+.round-icon.small {
+    font-size: 14px;
+    height: 22px; /* fontsize + 2 * padding */
+    padding: 4px;
+    width: 22px; /* fontsize + 2 * padding */
+}
+
+.footer .round-icon {
+    background-color: #788e9c;
+}
+
+.footer a {
+    font-size: 18px;
+    color: #636363;
+    font-weight: 400;
 }
 
 .justify p {
@@ -62,8 +139,16 @@ img {
     padding-bottom: 8vw;
 }
 
+.newsletter p {
+    margin-bottom: 10px;
+}
+
 .form-control {
     font-size: 18px
+}
+
+.form-control input {
+    color: #ccb090;
 }
 
 .input1 {
@@ -114,26 +199,96 @@ img {
 }
 
 .copyright {
-    font-size: 0.6em;
+    font-size: 18px;
+    color: #4d4d4d;
+    font-weight: 400;
 }
 
 .atcb-link {
-  padding: inherit !important;
-  background: inherit !important;
-  box-shadow: inherit !important;
-  color: inherit !important;
-  text-decoration: underline !important;
-  font-size: inherit !important;
-  font-family: inherit !important;
+    padding: inherit !important;
+    background: inherit !important;
+    box-shadow: inherit !important;
+    color: inherit !important;
+    text-decoration: underline !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+}
+
+.btn-default {
+    padding: 4px 0 8px;
+    background-color: #b7c6d0;
 }
 
 /* Moblie portrait, landscape and Tablet portrait */
 @media all and (max-width: 992px) {
-    body {
-        font-size: 18px;
+    .footer {
+        line-height: 1.5em;
+    }
+
+    .row {
+        padding: 4vw 0;
+    }
+
+    .dark-bg {
+        padding: 6vw 0;
     }
 
     .col-md-6 img {
         padding-top: 8vw;
     }
+}
+
+@media all and (max-width: 1200px) {
+    .footer div.text-center {
+        text-align: left;
+    }
+
+    .footer i.small {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .row.logo-row-margin {
+        padding-top: 2vw;
+    }
+
+    .row.motto {
+        padding-top: 3svw;
+        padding-bottom: 1.5vw;
+    }
+}
+
+@media all and (max-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+
+    .dark-bg {
+        padding: 10vw 0;
+    }
+}
+
+.row.dark-bg.nopadding,
+.row.nopadding,
+.nopadding {
+    padding: 0;
+}
+
+
+.negative-margin {
+    margin-bottom: -20px;
+}
+
+.rule {
+    padding: 0;
+}
+
+.logo-row-margin {
+    color: white;
+    padding-bottom: 0;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
 }
