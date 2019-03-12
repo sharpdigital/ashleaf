@@ -48,12 +48,14 @@ hr {
 
 input[type="checkbox"] + label {
     display: inline;
-    font-size: 18px;
-    line-height: 1.2em;
 }
 
 .row.navigation {
     padding: 1.5vw 0 0;
+}
+
+.row > p:not(:first-child) {
+    padding-top: 1em;
 }
 
 nav {
