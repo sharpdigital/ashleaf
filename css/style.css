@@ -58,19 +58,48 @@ input[type="checkbox"] + label {
     padding-top: 1em;
 }
 
-nav {
+.navbar {
     float: right;
     position: relative;
     left: -50%;
     text-align: left;
+    border: none;
+    padding-top: 27px;
 }
 
-nav > ul {
+.navbar-brand {
+    display: inline;
+}
+
+.navbar-brand > img {
+    display: inline;
+}
+
+.navbar-nav {
     position: relative;
     left: 50%;
+    list-style-type: none;
 }
 
-.nav li a {
+form table {
+    width: 100%;
+    text-align: center;
+}
+
+form td {
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+form select {
+    color: #4d4d4d;
+}
+
+.navbar .icon-bar {
+    background-color: white;
+}
+
+.navbar-nav li a {
     color: #233b46;
     font-weight: normal;
     border-right: 1px solid #233b46;
@@ -79,17 +108,20 @@ nav > ul {
     margin: 10px 0;
 }
 
-.nav li:last-child a {
+.navbar-nav li:last-child a {
+    background-color: transparent;
     border-right: none;
 }
 
-.nav li a.active {
+.navbar-nav li.active a {
+    background-color: transparent;
     font-weight: bold;
 }
 
-.nav li a:hover {
+.navbar-nav li a:hover {
     background-color: transparent;
     color: #233b46;
+    text-decoration: none;
 }
 
 img {
@@ -165,6 +197,10 @@ img {
     height: 22px; /* fontsize + 2 * padding */
     padding: 4px;
     width: 22px; /* fontsize + 2 * padding */
+}
+
+.motto-mobile {
+    display: none;
 }
 
 .reviews {
@@ -438,6 +474,43 @@ img {
         font-size: 18px;
     }
 
+    .navbar {
+        width: 100%;
+        left: inherit;
+        padding-top: 15px;
+    }
+
+    .navbar-toggle {
+        float: left;
+        border: none;
+        padding-top: calc(7.5vw - 7.5px);
+    }
+
+    .navbar-brand {
+        float: right;
+        padding: 0;
+        height: inherit;
+    }
+
+    .collapse {
+        width: 100%;
+    }
+
+    .navbar-nav li {
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    .navbar-nav li a {
+        border: none;
+    }
+
+    .navbar-nav {
+        left: inherit;
+        width: 100%;
+        padding-inline-start: 0;
+    }
+
     .dark-bg {
         padding: 10vw 0;
     }
@@ -457,8 +530,13 @@ img {
         width: 40px; /* fontsize + 2 * padding */
     }
 
-    .reviews-page .motto,
-    .reviews-page .motto + div,
+    .home-page .motto-mobile {
+        display: inherit;
+        padding: 0 0 4vw 0;
+    }
+
+    .home-page .motto,
+    .home-page .motto + div,
     .reviews-page .social,
     .desktop {
         display: none;
